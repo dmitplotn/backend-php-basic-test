@@ -1,6 +1,6 @@
 <?php
 
-namespace ResponseSender;
+namespace Ex1\ResponseSender;
 
 function send(string $message, int $statusCode = 200): void
 {

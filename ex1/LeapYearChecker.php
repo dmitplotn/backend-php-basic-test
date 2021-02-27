@@ -1,6 +1,6 @@
 <?php
 
-namespace LeapYearChecker;
+namespace Ex1\LeapYearChecker;
 
 function isLeapYear(int $year): bool
 {

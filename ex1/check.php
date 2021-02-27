@@ -3,8 +3,8 @@
 require_once __DIR__ . '/LeapYearChecker.php';
 require_once __DIR__ . '/ResponseSender.php';
 
-use function LeapYearChecker\isLeapYear;
-use function ResponseSender\send;
+use function Ex1\LeapYearChecker\isLeapYear;
+use function Ex1\ResponseSender\send;
 
 if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     send('Invalid HTTP method.', 404);
