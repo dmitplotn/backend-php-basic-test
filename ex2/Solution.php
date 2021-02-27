@@ -9,7 +9,7 @@ function filterStringsByPrefix1(string $prefix, array $strings): array
     return array_values($filteredStrings);
 }
 
-// Второй вариант. Императивный. Наименнее оптимальный.
+// Второй вариант. Императивный. Менее оптимальный.
 function filterStringsByPrefix2(string $prefix, array $strings): array
 {
     $filteredStrings = [];
